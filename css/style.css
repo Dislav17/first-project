@@ -1,0 +1,465 @@
+/* Defauld start */
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Gilroy Regular', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+ul {
+    list-style: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background: url('/images/background/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.content {
+    width: 760px;
+    margin: 0 auto;
+}
+
+/* Defauld end */
+
+/* Header start */
+
+.header {
+    padding-top: 24px;
+}
+
+.header__wrapper {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+
+.nav {
+    display: flex;
+}
+
+.nav__link {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav__link:last-child {
+    margin-right: 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link-right {
+    margin-right: 40px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-right__search-icon {
+    height: 24px;
+    margin-right: 14px;
+}
+
+.icon-acc {
+    margin-right: 25px;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+
+}
+
+.icon-like {
+    width: 18px;
+    height: 18px;
+}
+
+/* Header end */
+
+/* Intro start */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex: 1;
+} 
+
+.intro__content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.intro__title {
+    margin-bottom: 50px;
+    font-family: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.intro-button {
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.intro-btn {
+    padding: 14px 36px;
+    color: #fff;
+    background-color:#333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.intro-border {
+    border-top: 1px solid #fff;
+}
+
+.intro-brand-items {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.brand:not(:last-child) {
+
+    padding-right: 15px;
+    border-right: 1px solid #fff;
+
+}
+
+/* Intro end */
+
+/* Catalog start */
+
+.catalog {
+    display: flex;
+}
+
+.catalog__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.catalog__header p {
+    margin: 0;
+    padding-top: 96px;
+    font-weight: 400;
+    font-size: 22px;
+    color: #333333;
+}
+
+.catalog__header h2 {
+    padding-top: 14px;
+    padding-bottom: 60px;
+    font-family: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #333333;
+}
+
+.catalog__menu {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 55px;
+}
+
+.catalog__menu-item {
+    min-width: 162px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.catalog__menu-item:hover {
+    background-color: #333333;
+    color: #fff;
+}
+
+.catalog__menu a {
+    font-weight: 500;
+    font-style: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    color: #333333;
+    border: 1px solid #333333;
+}
+
+.catalog__block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 132px;
+
+}
+
+.catalog__block__earrings {
+    margin-bottom: 30px;
+}
+
+
+/* Catalog end */
+
+/* Salons start */
+
+.salons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: url(/images/background/background-second.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.salons__header p {
+    margin: 0;
+    padding-top: 100px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.salons__header h2 {
+    padding-top: 14px;
+    padding-bottom: 46px;
+    font-family: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.salons__description {
+    padding-bottom: 60px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.salons__btn {
+    padding-bottom: 100px;
+}
+
+.salons__btn button {
+    padding: 14px 34px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+/* Salons end */
+
+/* Present start */
+
+.present__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.present__header p {
+    margin: 0;
+    padding-top: 120px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.present__header h2 {
+    padding-top: 14px;
+    padding-bottom: 60px;
+    font-style: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.present__catalog {
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.present_button {
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.present-btn {
+    padding: 14px 36px;
+    color: #fff;
+    background-color:#333333;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+/* Present end */
+
+/* Social start */
+
+.social__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social__header p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #333333;
+}
+
+.social__header h2 {
+    padding-top: 14px;
+    padding-bottom: 60px;
+    font-style: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    color: #333333;
+}
+
+.social__catalog {
+    padding-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;  
+}
+
+/* Social end */
+
+/* Mailing-list start */
+
+.mailing {
+    background: url(/images/background/background-second.png);
+    background-size: cover;
+    color: #fff;
+}
+
+.mailing__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.mailing__header p{
+    margin: 0;
+    padding-top: 94px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.mailing__header h2{
+    padding-top: 14px;
+    padding-bottom: 60px;
+    font-family: 'Noto Serif',serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.mailing-list ul {
+    list-style-image: url(/images/icons/subscribe__icon.png);
+}
+
+.mailing-list li {
+    margin-top: 14px;
+    padding-left: 20px;
+}
+
+.mailing-block {
+    margin-left: 156px;
+    padding-bottom: 126px;
+    display: flex;
+    align-items: center;   
+}
+
+.mailing-form {
+    border: 1px solid #fff;
+    margin-left: 50px;
+}
+
+.mailing-form__inner {
+    background-color: #fff;
+    margin: 14px;
+    padding: 20px 22px;
+}
+
+.mailing-form__inner button{
+    margin-left: 16px;
+    padding: 14px 36px;
+    color: #fff;
+    background-color:#333333;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+}
+
+.mailing-form__inner input {
+    border: 1px solid #D6D6D6;
+}
+
+#email {
+    padding: 14px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+
+
+
+/* Mailing-list end */
