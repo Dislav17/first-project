@@ -463,3 +463,137 @@ ul {
 
 
 /* Mailing-list end */
+
+/* Footer start */
+.footer {
+    padding-top: 74px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #333333;
+}
+
+.footer-links {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.footer__header {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333333;
+}
+
+.footer-links__list ul li {
+    padding-inline-start: 0px;
+    padding-top: 15px;
+    
+}
+
+.footer-links__list ul {
+    padding-inline-start: 0px;
+}
+
+.footer-links__list a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.footer-paymant {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.footer-paymant__description {
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+
+.footer-paymant__description p {
+    margin: 0;
+}
+
+.footer-paymant__icon {
+    padding-top: 20px;
+}
+
+.visacard {
+    padding-right: 20px;
+}
+
+.footer-contacts {
+    width: 25%;
+    padding-right: 30px;
+}
+
+.phone {
+    padding-top: 30px;
+}
+
+.phone a {
+    padding-left: 20px;
+    color: #333333;
+}
+
+.tel {
+    padding-top: 15px;
+}
+
+.tel a {
+    padding-left: 20px;
+    color: #333333;
+}
+
+.mail {
+    padding-top: 15px;
+}
+
+.mail a {
+    padding-left: 20px;
+    color: #333333;
+}
+
+.footer-social {
+    width: 25%;
+}
+
+.footer-social__icon {
+    padding-top: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-social__icon img:not(last-child) {
+    padding-right: 20px;
+}
+
+.footer__copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.default-link {
+    text-decoration: underline;
+}
+/* Footer end */
