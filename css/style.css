@@ -237,10 +237,73 @@ ul {
 
 }
 
-.catalog__block__earrings {
-    margin-bottom: 30px;
+.catalog__block__rings {
+    position: relative;
+    margin-bottom: 24px;
 }
 
+.ring-text {
+    top: 80%;
+    left: 35%;
+    position: absolute;
+}
+
+.catalog__block__earrings {
+    position: relative;
+}
+
+.earring-text {
+    top: 74%;
+    left: 35%;
+    position: absolute;
+}
+
+.catalog__block__pendants {
+    position: relative;
+}
+
+.pendant-text {
+    top: 74%;
+    left: 30%;
+    position: absolute;
+}
+
+.catalog__block__cufflinks {
+    position: relative;
+}
+
+.cufflink-text {
+    top: 80%;
+    left: 33%;
+    position: absolute;
+}
+
+.catalog__block__braslets {
+    position: relative;
+}
+
+.braslet-text {
+    top: 80%;
+    left: 30%;
+    position: absolute;
+}
+
+.catalog__block__clocks {
+    position: relative;
+}
+
+.clock-text {
+    top: 80%;
+    left: 40%;
+    position: absolute;
+}
+
+.catalog__description {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+}
 
 /* Catalog end */
 
@@ -323,6 +386,27 @@ ul {
     padding-bottom: 60px;
     display: flex;
     justify-content: space-between;
+}
+
+.present-wife {
+    position: relative;
+}
+
+.present-hasband {
+    position: relative;
+}
+
+.present-weeding {
+    position: relative;
+}
+.present-text {
+    top: 62%;
+    left: 33%;
+    position: absolute;
+    font-weight: 400;
+    font-style: 20px;
+    line-height: 30px;
+    text-align: center;
 }
 
 .present_button {
