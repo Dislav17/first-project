@@ -698,36 +698,84 @@ ul {
 /* Footer end */
 
 /* Adaptive start */
-@media (max-width: 992px) {
+@media (max-width: 1050px) {
     .container {
         padding: 0 24px;
         width: 100%;
+    }
+    .header__wrapper {
+        padding-top: 30px;
     }
     .nav, 
     .nav-right {
         display: none;
     }
+    .intro__title {
+        text-align: center;
+    }
+    .intro-brand-items {
+        padding: 20px;
+    }
     .brand:not(:first-child):not(:last-child) {
         display: none;
     }
+    .catalog__header {
+        text-align: center;
+    }
+    .catalog__header 
+    p,
+    h2 {
+        padding-top: 46px;
+    }
+
     .catalog__menu {
+        padding-bottom: 24px;
         flex-wrap: wrap;
     }
+    .catalog__menu-item {
+        margin-bottom: 20px;
+    }
     .catalog__block {
-        justify-content: center;
+        padding-bottom: 46px;
+    }
+    .catalog__block__rings {
+        margin: 0;
+    }
+    .salons {
+        padding: 20px;
+    }
+    .salons__header p {
+        padding-top: 46px;
+    }
+    .salons__btn {
+        padding-bottom: 46px;
     }
     .content {
         width: 100%;
+    }
+    .present__header {
+        text-align: center;
+    }
+    .present__header p {
+        padding-top: 46px;
     }
     .present__catalog {
         flex-wrap: wrap;
         justify-content: center;
     }
+    .present_button {
+        padding-bottom: 46px;
+    }
+    .social__header h2 {
+        padding-bottom: 46px;
+    }
     .social__catalog {
+        padding-bottom: 46px;
         justify-content: center;
     }
     .social__catalog-item img {
-        width: 100%;
+        max-width: 100%;
+        min-height: 200px;
     }
     .mailing-block {
         margin: 0;
@@ -747,5 +795,6 @@ ul {
     
     
 }
+
 
 /* Adaptive end */
