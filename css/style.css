@@ -725,31 +725,11 @@ ul {
     .header__logo {
         padding-left: 10px;
     }
-    .nav-toggle {
-        display: block;
-    }
-    .nav-toggle button {
-        padding: 10px;
-    }
-    .nav-toggle__button > div {
-
-    }
-    
-    .nav-toggle button + .nav-right {
-        display: block;
-    }
-    .nav, 
-    .nav-right {
-        display: none;
-    }
     .intro__title {
         text-align: center;
     }
     .intro-brand-items {
         padding: 20px;
-    }
-    .brand:not(:first-child):not(:last-child) {
-        display: none;
     }
     .catalog__header {
         text-align: center;
@@ -865,6 +845,37 @@ ul {
         padding-bottom: 5px;
     }
     
+}
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+    .nav-right {
+        margin-right: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-toggle {
+        display: block;
+    }
+    .nav-toggle button {
+        padding: 10px;
+    }
+    .nav-toggle__button > div {
+
+    }
+    
+    .nav-toggle button + .nav-right {
+        display: block;
+    }
+    .nav, 
+    .nav-right {
+        display: none;
+    }
+    .brand:not(:first-child):not(:last-child) {
+        display: none;
+    }
 }
 
 
